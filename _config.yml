@@ -1,98 +1,127 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
-# Site
-title: 秋风扫落叶
-subtitle: '弄着玩呢'
-description: '没啥描述就是玩呢'
-keywords: 'vue,react,node.js'
-author: 'yaojie'
+version: 1.0.2
+theme: hexo-theme-async
 language: zh-Hans
-timezone: 'Asia/Shanghai'
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://wyjtang.github.io
-root: /sweet.github.io/
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing index.html from permalinks
-
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
-  exclude: ''
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
+# user
+user:
+  name: ThemeAsync
+  first_name: Theme
+  last_name: Async
+  logo: /logo.png
+  email: 
+  domain: 站点域名
+  avatar: 博主头像信息
+  describe: 网站简介。
+  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+  birthDay: 04/10/2022 17:00:00 #计时开始时间
+  copyrightYear: 2022
 
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
+# logo
+favicon:
+  icon16:
+  icon32:
+  appleTouchIcon:
+  webmanifest:
+  visibilitychange: false
+  hidden: 
+  showText: (/≧▽≦/)咦！又好了！
+  hideText: (●—●)喔哟，崩溃啦！
 
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+# menu
+top_bars:
+    - title: 首页
+      url: /
+    - title: 归档
+      url: /archives/
+    - title: 友链
+      url: /links/
+    - title: 关于
+      url: /about/
 
-# Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+# banner 配置信息
+banner:
+  default:
+    type: img
+    bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg?source=1940ef5c
+    bannerText: Hi my new friend!
+  index:
+    type: img
+    bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg?source=1940ef5c
+    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    bannerText: Hi my new friend!
+    videoUrl: 
+  archive:
+    type: img
+    bgurl: https://w.wallhaven.cc/full/j5/wallhaven-j5we85.jpg
+    bannerTitle: 云间连下榻，<br>天上接行杯。
+    bannerText: The article archive
+  links:
+    type: img
+    bgurl: https://images.unsplash.com/photo-1563718428108-a2420c356c5c
+    bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
+    bannerText: A link to a friend's website
+  comment:
+    type: img
+    bgurl: https://images.unsplash.com/photo-1621266309424-52f5a2e6d7f6
+    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+    bannerText: The magic tree hole
+  about:
+    type: img
+    bgurl: https://images.unsplash.com/photo-1637118560941-b2363dcd8a8e?crop=entropy&cs=srgb&fm=jpg&ixid=Mnw4OTgyNHwwfDF8c2VhcmNofDE0fHwlRTYlOTclQTUlRTUlODclQkF8ZW58MHx8fHwxNjQ5NjcwODgz&ixlib=rb-1.2.1&q=85
+    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+    bannerText: About me
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+# sidebar
+sidebar:
+  typedTextPrefix: I`m
+  typedText: [ 'Web Developer' ]
+  info: 
+    - key: sidebar.residence
+      val: Mars
+    - key: sidebar.city
+      val: WuHan
+    - key: sidebar.age
+      val: 18
+  social:
+    - icon: fab fa-github
+      url: https://github.com
+    - icon: iconfont cg-gitee
+      url: https://gitee.com
+    - icon: iconfont cg-weibo
+      url: https://weibo.com/
+# links
+links: []
+# about
+about:
+  title: 如果一切都是镜花水月，那就让这万物走向终结。如果一切皆是命中注定，那就让这世界消失殆尽。
+  introduction: 大家好，我是 <strong>Async</strong>，很高兴您能在浩瀚如烟的互联网世界里发现这个博客，更感谢您能够饶有兴致地浏览这个页面。建立这个 Blog 是出于兴趣爱好，我将在此分会分享一些学习笔记，可能还会分享少许图片、视频以及其他有趣东西的链接。
+  blog: 
+    <ul class="trm-list">
+      <li>程序：Hexo </li>
+      <li>主题：Hexo-theme-async </li>
+    </ul>
+  privacy: 
+    本网站不会追踪访客行为，且不要求访客提供任何敏感信息（比如真实姓名、身份证号码、手机号等），因而也不存在任何隐私泄漏问题。访客参与评论，必须遵守法律法规和基本道德规范，文明礼貌。严禁发布任何有关淫秽、反动、暴力、博彩、恐吓、低俗的内容或违法信息，在尊重言论自由的同时请保持和平与理性。请勿对他人采取不友好的评论或其它过激行为。
 
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 10
-pagination_dir: page
+# Page Visit Statistics
+webAnalytics:  
+  enable: false 
+  baidu:   # Baidu key
+  google:  # Tracking ID for Google statistics
+  tencent: # Tencent statistics
+    sid:
+    cid:
 
-# Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+# comment
+comment:
+  enable: false
+  bComments:
+    v: 0.0.12
+    env: 
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: landscape
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: ''
+# Service Worker
+sw: false
