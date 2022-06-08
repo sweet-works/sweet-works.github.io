@@ -125,3 +125,9 @@ comment:
 
 # Service Worker
 sw: false
+
+deploy:
+  type: git
+  repo: https://github.com/WYJTang/sweet.github.io/
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: master
