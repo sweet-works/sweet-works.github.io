@@ -1,6 +1,8 @@
 version: 1.0.2
 theme: hexo-theme-async
 language: zh-Hans
+url: https://wyjtang.github.io
+root: /sweet.github.io/
 highlight:
   enable: true
   line_number: false
