@@ -12,7 +12,7 @@ user:
   first_name: Theme
   last_name: Async
   logo: /logo.png
-  email: 
+  email: sweet_works@163.com
   domain: 站点域名
   avatar: 博主头像信息
   describe: 网站简介。
@@ -131,3 +131,5 @@ deploy:
   repo: https://github.com/WYJTang/sweet.github.io/
   # example, https://github.com/hexojs/hexojs.github.io
   branch: master
+  name: WYJTang
+  email: 643392718@qq.com
