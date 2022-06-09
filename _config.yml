@@ -12,84 +12,12 @@ highlight:
   enable: true
   line_number: false
   auto_detect: false
-  tab_replace: ''
-# user
-theme_config: 
- user:
-  name: PANDA
-  first_name: SWEET
-  last_name: BLOG
-  logo: https://thirdwx.qlogo.cn/mmopen/vi_32/IQVqNKB1RYvqHK65w7Jx6Y9nDhHw7VIp6j3cIKaSich9jFwCeibQ7GlAoeuvQ70eEvJBdFZt0XKuMheWqIzAiaA5g/132
-  email: sweet_works@163.com
-  domain: https://wyjtang.github.io/sweet.github.io/
-  avatar: http://img.taogou1.cn/static/blog/logo.jpg
-  describe: 网站简介。
-  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
-  birthDay: 07/16/2019 9:00:00 #计时开始时间
-  copyrightYear: 2022
- # banner 配置信息
- banner:
-  default:
-    type: img
-    bgurl: http://img.taogou1.cn/static/blog/06.jpeg
-    bannerText: Hi my new friend!
-  index:
-    type: img
-    bgurl: http://img.taogou1.cn/static/blog/01.jpg
-    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
-    bannerText: Hi my new friend!
-    videoUrl: 
-  archive:
-    type: img
-    bgurl: http://img.taogou1.cn/static/blog/02.jpg
-    bannerTitle: 云间连下榻，<br>天上接行杯。
-    bannerText: The article archive
-  links:
-    type: img
-    bgurl: http://img.taogou1.cn/static/blog/03.jpg
-    bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
-    bannerText: A link to a friend's website
-  comment:
-    type: img
-    bgurl: http://img.taogou1.cn/static/blog/04.jpg
-    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
-    bannerText: The magic tree hole
-  about:
-    type: img
-    bgurl: http://img.taogou1.cn/static/blog/05.jpg
-    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
-    bannerText: About me
-
- # sidebar
- sidebar:
-  typedTextPrefix: I`m
-  typedText: [ 'Web Developer' ]
-  info: 
-    - key: sidebar.residence
-      val: MINHANG
-    - key: sidebar.city
-      val: Shanghai
-    - key: sidebar.age
-      val: 25
-  social:
-    - icon: fab fa-github
-      url: https://github.com
-    - icon: iconfont cg-gitee
-      url: https://gitee.com
-    - icon: iconfont cg-weibo
-      url: https://weibo.com/
-# links
- links: [{
-  name: 白云苍狗,
-  url: https://www.imalun.com/,
-  image: https://www.imalun.com/images/avatar.jpg,
-  desc: 醒，亦在人间；梦，亦在人间
-}]
+  tab_replace: ""
 # Page Visit Statistics
-webAnalytics:  
-  enable: false 
-  baidu:   # Baidu key
-  google:  # Tracking ID for Google statistics
+webAnalytics:
+  enable: false
+  baidu: # Baidu key
+  google: # Tracking ID for Google statistics
   tencent: # Tencent statistics
     sid:
     cid:
@@ -99,7 +27,7 @@ comment:
   enable: false
   bComments:
     v: 0.0.12
-    env: 
+    env:
 
 # Service Worker
 sw: false
@@ -111,3 +39,94 @@ deploy:
   branch: web
   name: WYJTang
   email: 643392718@qq.com
+  # 全局配置
+theme_config:
+  # user
+  user:
+    name: PANDA
+    first_name: SWEET
+    last_name: BLOG
+    logo: https://thirdwx.qlogo.cn/mmopen/vi_32/IQVqNKB1RYvqHK65w7Jx6Y9nDhHw7VIp6j3cIKaSich9jFwCeibQ7GlAoeuvQ70eEvJBdFZt0XKuMheWqIzAiaA5g/132
+    email: sweet_works@163.com
+    domain: https://wyjtang.github.io/sweet.github.io/
+    avatar: http://img.taogou1.cn/static/blog/logo.jpg
+    describe: 网站简介。
+    ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+    birthDay: 07/16/2019 9:00:00 #计时开始时间
+    copyrightYear: 2022
+  # banner 配置信息
+  banner:
+    default:
+      type: img
+      bgurl: http://img.taogou1.cn/static/blog/01.jpg
+      bannerText: Hi my new friend!
+    index:
+      type: img
+      bgurl: http://img.taogou1.cn/static/blog/06.jpeg
+      bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+      bannerText: Hi my new friend!
+      videoUrl:
+    archive:
+      type: img
+      bgurl: http://img.taogou1.cn/static/blog/02.jpg
+      bannerTitle: 云间连下榻，<br>天上接行杯。
+      bannerText: The article archive
+    links:
+      type: img
+      bgurl: http://img.taogou1.cn/static/blog/03.jpg
+      bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
+      bannerText: A link to a friend's website
+    comment:
+      type: img
+      bgurl: http://img.taogou1.cn/static/blog/04.jpg
+      bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+      bannerText: The magic tree hole
+    about:
+      type: img
+      bgurl: http://img.taogou1.cn/static/blog/05.jpg
+      bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+      bannerText: About me
+  # sidebar
+  sidebar:
+    typedTextPrefix: I`m
+    typedText: ["Web Developer"]
+    info:
+      - key: sidebar.residence
+        val: MINHANG
+      - key: sidebar.city
+        val: Shanghai
+      - key: sidebar.age
+        val: 25
+    social:
+      - icon: fab fa-github
+        url: https://github.com
+      - icon: iconfont cg-gitee
+        url: https://gitee.com
+      - icon: iconfont cg-weibo
+        url: https://weibo.com/
+  # links
+  links:
+    [
+      {
+        name: 白云苍狗,
+        url: https://www.imalun.com/,
+        image: https://www.imalun.com/images/avatar.jpg,
+        desc: 醒，亦在人间；梦，亦在人间,
+      },
+    ]
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    use: live2d-widget-model-hijiki #模板目录，在node_modules里
+  display:
+    position: left
+    width: 375
+    height: 400
+    hOffset: 30 #  canvas水平偏移
+    vOffset: 2 # canvas垂直偏移
+  mobile:
+    show: true #是否在手机进行显示
+  react:
+    opacityDefault: 1 # 默认透明度
+    opacityOnHover: 0.8 # 鼠标移上透明度
