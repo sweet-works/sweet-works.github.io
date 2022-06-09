@@ -1,7 +1,7 @@
 version: 1.0.2
 theme: hexo-theme-async
-url: https://wyjtang.github.io
-root: /sweet.github.io/
+url: https://sweet-works.github.io
+root: /
 language: zh-Hans
 timezone: Asia/Shanghai
 description: 博客
@@ -121,7 +121,7 @@ live2d:
     use: live2d-widget-model-hijiki #模板目录，在node_modules里
   display:
     position: left
-    width: 375
+    width: 300
     height: 400
     hOffset: 30 #  canvas水平偏移
     vOffset: 2 # canvas垂直偏移
@@ -130,3 +130,6 @@ live2d:
   react:
     opacityDefault: 1 # 默认透明度
     opacityOnHover: 0.8 # 鼠标移上透明度
+  dialog:
+    enable: true
+        
