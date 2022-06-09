@@ -46,10 +46,11 @@ theme_config:
     name: PANDA
     first_name: SWEET
     last_name: BLOG
-    logo: https://thirdwx.qlogo.cn/mmopen/vi_32/IQVqNKB1RYvqHK65w7Jx6Y9nDhHw7VIp6j3cIKaSich9jFwCeibQ7GlAoeuvQ70eEvJBdFZt0XKuMheWqIzAiaA5g/132
+    logo: './assets/avatar-ea67286d.gif'
     email: sweet_works@163.com
     domain: https://wyjtang.github.io/sweet.github.io/
-    avatar: http://img.taogou1.cn/static/blog/logo.jpg
+    # avatar: http://img.taogou1.cn/static/blog/logo.jpg
+    avatar: https://thirdwx.qlogo.cn/mmopen/vi_32/IQVqNKB1RYvqHK65w7Jx6Y9nDhHw7VIp6j3cIKaSich9jFwCeibQ7GlAoeuvQ70eEvJBdFZt0XKuMheWqIzAiaA5g/132
     describe: 网站简介。
     ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
     birthDay: 07/16/2019 9:00:00 #计时开始时间
@@ -58,32 +59,32 @@ theme_config:
   banner:
     default:
       type: img
-      bgurl: http://img.taogou1.cn/static/blog/01.jpg
+      bgurl: ./assets/01.jpg
       bannerText: Hi my new friend!
     index:
       type: img
-      bgurl: http://img.taogou1.cn/static/blog/06.jpeg
+      bgurl: ./assets/06.jpeg
       bannerTitle: 树深时见鹿，<br>溪午不闻钟。
       bannerText: Hi my new friend!
       videoUrl:
     archive:
       type: img
-      bgurl: http://img.taogou1.cn/static/blog/02.jpg
+      bgurl: ./assets/02.jpg
       bannerTitle: 云间连下榻，<br>天上接行杯。
       bannerText: The article archive
     links:
       type: img
-      bgurl: http://img.taogou1.cn/static/blog/03.jpg
+      bgurl: ./assets/03.jpg
       bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
       bannerText: A link to a friend's website
     comment:
       type: img
-      bgurl: http://img.taogou1.cn/static/blog/04.jpg
+      bgurl: ./assets/04.jpg
       bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
       bannerText: The magic tree hole
     about:
       type: img
-      bgurl: http://img.taogou1.cn/static/blog/05.jpg
+      bgurl: ./assets/05.jpg
       bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
       bannerText: About me
   # sidebar
