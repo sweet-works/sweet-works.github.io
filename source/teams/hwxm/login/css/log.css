@@ -1,0 +1,82 @@
+*{margin:0;padding:0}
+a{text-decoration: none;color:#666;}
+#log1,#log2,#sele,.s1,.s2{cursor: pointer;}
+img{display: block}
+.title{height: 40px;background-color:#FFFBE4;color: #989898;text-align: center;line-height: 40px;}
+.mane{height: 590px;background:#081638}
+.mane_l{width: 1130px;
+    height: 100%; margin: 0 auto;background: url(../images/login_default_bg.png) no-repeat;position: relative}
+.log{width: 380px;height: 530px;background-color: white;position: absolute;
+    top: 30px;right: 0;}
+.log_h{height: 70px;width: 100%;line-height: 70px;}
+.log_h span {float: left; width: 180px;text-align: center;font-size: 20px;font-weight: 500;}
+.log_h b{font-size: 18px;float: left;color:#cccccc;font-weight: normal;}
+.log_body{width: 328px;margin:0 auto;}
+.error_box{height: 15px;
+    width: 100%;}
+.error{width: 100%;height: 15px;color: red;margin-top: 15px;font-size: 12px; display: none}
+.error i{float: left;width: 13px;height: 13px; background: url(../images/btn_errorInfo.png) no-repeat;margin-top: 2px;margin-right: 4px;}
+.int input{height: 46px;width: 100%;border: none;border-bottom: 1px #ccc solid;outline: none;
+    margin-bottom:10px;}
+.yzm i{float: left;width: 13px;height: 13px;background: url(../images/ic_smsLogin.png);margin-top: 2px;margin-right: 4px;}
+.yzm a{color:#007dff}
+.yzm {width: 100%;height: 15px;color: red;margin-top: 20px;font-size: 12px; }
+.log_in{height: 46px;background: #b40707;line-height: 46px;border-radius: 23px;text-align: center;margin: 15px 0 ;}
+.log_in a{color: #fff;font-weight: bold}
+.log_in:hover{background:red;}
+.mima img{width: 18px;height: 18px;float: left;margin-right: 5px;}
+.mima {font-size: 12px;color:#666;}
+.mima a{float: right;color:#007dff}
+.log_f1{text-align: center;color:#ccc;font-size: 12px;margin-top: 15px;}
+.log_f1 a{color:#007dff;margin:0 20px;}
+.log_f2{width: 186px;text-align: center;margin:0 auto;}
+.log_f2 p{margin:40px 0 10px 0;color: #666;font-size: 16px;}
+.log_f2 a{width: 42px; height: 42px;margin:10px;float: left;overflow: hidden;}
+.log_f2 a:nth-of-type(1) img{transform: translate(-72px,-9px)}
+.log_f2 a:nth-of-type(2) img{transform: translate(-133px,-9px)}
+.log_f2 a:nth-of-type(3) img{transform: translate(-12px,-9px)}
+.log_f2 a:nth-of-type(1):hover img{transform: translate(-72px,-55px)}
+.log_f2 a:nth-of-type(2):hover img{transform: translate(-133px,-55px)}
+.log_f2 a:nth-of-type(3):hover img{transform: translate(-12px,-55px)}
+.log_right{width: 335px;margin:0 auto;display: none;}
+.box{height: 318px;position: relative}
+.erma {width: 160px;height: 160px;border:1px #000 solid;position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin:auto;transition:all 0.5s }
+.erma img{display: inline-block;width: 151px;height: 151px;position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin:auto;}
+.disp{position: absolute;right: 0;top: 50px;opacity: 0;transition: all 1s;}
+.box:hover .disp{opacity: 1;}
+.box:hover .erma{transform: translateX(-80px)}
+.log_right_f{text-align: center;font-size: 12px;}
+.log_right_f p span{color:#007dff}
+.log_right_f p{margin-bottom: 10px;}
+/*注册页面开始*/
+*{margin:0;padding: 0;}
+a{text-decoration: none;color:#666;}
+body{background: #f2f2f2}
+.layout{width: 998px; margin:0 auto;}
+.nav{height: 35px;margin-top: 25px;}
+.nav span{display: inline-block;line-height: 35px; height: 35px;width: 146px;text-align: center;position: relative;color: white}
+.s1{background: #B40707}
+.s2{background: #ccc;}
+.s1 i{float: left;width: 14px;height: 22px;background: url(../images/reg-img01.png) no-repeat;background-position: 0 -18px;position: absolute;top: 6px;
+    left: 26px}
+.s2 i{float: left;width: 22px;height: 17px;background: url(../images/reg-img01.png) no-repeat;position: absolute;top: 9px;left: 16px;}
+.nav span.s3{color: #333;float: right;font-size: 14px;}
+.s3 a{color: #007dff}
+.body{height: 484px;background: #fff;padding:20px 0 40px 0 }
+.body_l{width: 420px;margin:0 auto;}
+.body .inp{width: 420px;height: 44px;border: 1px #eee solid;border-radius: 22px;font-size: 16px;margin-top: 20px;}
+.inp_l{width: 123px;border-right: 1px #eee solid;float:left;text-align: center;}
+.inp_r{width: 280px;float: left;text-align: left;padding-left: 15px;}
+.inp_l,.inp_r{height: 44px;line-height: 44px;}
+.inp_r img{display: inline-block;float: right;margin-top:20px;margin-right: 20px}
+.inp2_r input{outline: none;height: 30px;line-height: 30px;
+    width: 200px;border: none;}
+.zc{width: 200px;height: 40px;border-radius: 20px;text-align: center;line-height: 40px;margin:20px auto;background: #B40707;}
+.zc a{color: #fff}
+.error2{padding-left: 25px;color:#B40707;font-size: 14px; }
+/*点击注册跳出的框*/
+.last{width: 500px;height:300px;background: rgba(0,0,0,.5);
+    position: absolute; top: 0;bottom: 0;right: 0;left: 0;margin:auto;
+    font-size: 25px;text-align: center;border-radius: 20px;opacity:0;z-index: -10}
+.last p{margin: 70px 0 130px 0;color: #fff;}
+.last span{display: inline-block;width: 150px;height: 50px;border-radius: 10px;text-align: center;line-height: 50px;margin-right: 20px;background-color: #fff;}

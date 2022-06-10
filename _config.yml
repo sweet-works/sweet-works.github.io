@@ -46,7 +46,7 @@ theme_config:
     name: PANDA
     first_name: SWEET
     last_name: BLOG
-    logo: './assets/avatar-ea67286d.gif'
+    logo: '/assets/avatar-ea67286d.gif'
     email: sweet_works@163.com
     domain: https://wyjtang.github.io/sweet.github.io/
     # avatar: http://img.taogou1.cn/static/blog/logo.jpg
@@ -59,32 +59,32 @@ theme_config:
   banner:
     default:
       type: img
-      bgurl: ./assets/01.jpg
+      bgurl: /assets/01.jpg
       bannerText: Hi my new friend!
     index:
       type: img
-      bgurl: ./assets/06.jpeg
+      bgurl: /assets/06.jpeg
       bannerTitle: 树深时见鹿，<br>溪午不闻钟。
       bannerText: Hi my new friend!
       videoUrl:
     archive:
       type: img
-      bgurl: ./assets/02.jpg
+      bgurl: /assets/02.jpg
       bannerTitle: 云间连下榻，<br>天上接行杯。
       bannerText: The article archive
     links:
       type: img
-      bgurl: ./assets/03.jpg
+      bgurl: /assets/03.jpg
       bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
       bannerText: A link to a friend's website
     comment:
       type: img
-      bgurl: ./assets/04.jpg
+      bgurl: /assets/04.jpg
       bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
       bannerText: The magic tree hole
     about:
       type: img
-      bgurl: ./assets/05.jpg
+      bgurl: /assets/05.jpg
       bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
       bannerText: About me
   # sidebar
@@ -115,6 +115,19 @@ theme_config:
         desc: 醒，亦在人间；梦，亦在人间,
       },
     ]
+    # menu
+  top_bars:
+    - title: 首页
+      url: /
+    - title: 分类
+      url: /categories/
+    - title: 归档
+      url: /archives/
+    - title: 友链
+      url: /links/
+    - title: 关于
+      url: /about/
+
 live2d:
   enable: true
   pluginModelPath: assets/
@@ -133,4 +146,5 @@ live2d:
     opacityOnHover: 0.8 # 鼠标移上透明度
   dialog:
     enable: true
+livere_uid: MTAyMC81NjU3My8zMzAzNg
         

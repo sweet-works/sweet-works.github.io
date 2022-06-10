@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>王耀杰-3D正方体</title>
+	<style type="text/css">
+	*{margin-bottom: 0;padding:0;}
+	
+	.box{width: 600px;height: 600px;margin:100px auto;position: relative;perspective: 900px;}
+	 .box ul{width: 200px;height: 200px;position: absolute;top: 0;right: 0;bottom: 0;left: 0;margin:auto; transform-style: preserve-3d;transition: all 5s;animation: www 5s infinite;}
+	 ul li{font-size: 30px;text-align: center;line-height: 200px;transition: all 5s;}
+	 ul li{width: 200px;height: 200px;list-style: none;position: absolute;}
+	 ul li:nth-child(1) {background: rgba(255,0,0,.5); transform: translateZ(100px);}
+	 ul li:nth-child(2)  {background: rgba(0,255,0,.5);transform: translateZ(-100px) rotateY(180deg);}
+	 ul li:nth-child(3) {background: rgba(0,0,255,.5);transform: translateX(-100px) rotateY(-90deg);}
+	 ul li:nth-child(4)  {background: rgba(255,255,0,.5);transform:translateX(100px) rotateY(90deg);}
+	 ul li:nth-child(5) {background: rgba(255,0,255,.5);transform: translateY(-100px) rotateX(90deg);}
+	 ul li:nth-child(6) {background: rgba(0,255,255,.5); transform:translateY(100px) rotateX(-90deg);}
+     .box:hover ul {transform: rotateX(360deg) rotateY(360deg);}
+     
+     .box:hover .bbb li:nth-child(1) {background: rgba(255,0,0,.5);   transform: translateZ(300px);}
+	 .box:hover .bbb li:nth-child(2) {background: rgba(0,255,0,.5);   transform: translateZ(-300px) rotateY(180deg);}
+	 .box:hover .bbb li:nth-child(3) {background: rgba(0,0,255,.5);   transform: translateX(-300px) rotateY(-90deg);}
+	 .box:hover .bbb li:nth-child(4) {background: rgba(255,255,0,.5); transform:translateX(300px) rotateY(90deg);}
+	 .box:hover .bbb li:nth-child(5) {background: rgba(255,0,255,.5); transform: translateY(-300px) rotateX(90deg);}
+	 .box:hover .bbb li:nth-child(6) {background: rgba(0,255,255,.5); transform:translateY(300px) rotateX(-90deg);}
+	 @keyframes www{form{transform: rotateX(0) rotateY(0);}
+	 					to{transform: rotateX(720deg) rotateY(720deg);}}
+	</style>
+</head>
+<body>
+	   <div class="box">
+			<ul class="aaa">
+				<li>前端</li>
+				<li>前</li>
+				<li>端</li>
+				<li>深</li>
+				<li>似</li>
+				<li>海</li>
+			</ul>
+			<ul class="bbb">
+				<li>点击屏幕</li>
+				<li>后</li>
+				<li>左</li>
+				<li>右</li>
+				<li>上</li>
+				<li>下</li>
+			</ul>
+	   </div>
+</body>
+</html>

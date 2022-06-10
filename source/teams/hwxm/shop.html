@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/gouwu.css">
+    <link rel="stylesheet" type="text/css" href="css/shop.css">
+    <style>
+    </style>
+</head>
+<body>
+        <div class="head"></div>
+        <div class="h_logo">
+            <div class="layout">
+                <img src="images/shop_logo.png" alt=""><span>我的购物车</span>
+            </div>
+        </div>
+        <div class="shop">
+        <div class="gwc layout">
+         <table cellpadding="0" cellspacing="0" class="gwc_tb1">
+                    <tr>
+                        <td class="tb1_td1"><input id="Checkbox1" type="checkbox"  class="allselect"/></td>
+                        <td class="tb1_td1">全选</td>
+                        <td class="tb1_td3">商品</td>
+                        <td class="tb1_td4">商品信息</td>
+                        <td class="tb1_td5">数量</td>
+                        <td class="tb1_td8">单价</td>
+                        <td class="tb1_td6">合计</td>
+                        <td class="tb1_td7">操作</td>
+                    </tr>
+                </table>
+            <div id="biaobiao">
+         <!--<table cellpadding="0" cellspacing="0" class="gwc_tb2">
+                    <tr>
+                        <td class="tb2_td1">
+        <input type="checkbox" value="1" name="newslist" id="newslist-1" />
+                        </td>
+                        <td class="tb2_td2">
+                            <a href="#"><img src="images/sj/1.jpg"/></a>
+                        </td>
+                        <td class="tb2_td3"><a href="#">荣耀</a></td>
+                        <td class="tb1_td4">1件</td>
+                        <td class="tb1_td5">
+                            <input id="min1" name=""  type="button" value="-" />
+                            <input id="text_box1" name="" type="text" value="1" />
+                            <input id="add1" name="" type="button" value="+" />
+                        </td>
+                        <td class="tb1_td8">
+                        <label id="dan" class="">20 </label>
+                    </td>
+                        <td class="tb1_td6">
+                            <label id="total1" class="tot"></label>
+                        </td>
+                        <td class="tb1_td7"><a href="#">删除</a></td>
+                    </tr>
+                </table>-->
+            </div>
+                <!---总数---->
+                <table cellpadding="0" cellspacing="0" class="gwc_tb3">
+                    <tr>
+                     <td class="tb1_td1">
+                       <input id="checkAll" class="allselect" type="checkbox" />
+                     </td>
+                        <td class="tb1_td1">全选</td>
+                        <td class="tb3_td1">
+                            <input id="invert" type="checkbox" />反选
+                            <input id="cancel" type="checkbox" />取消
+                        </td>
+                        <td class="tb3_td2">已选商品
+                            <label id="shuliang">0</label> 件
+                        </td>
+                        <td class="tb3_td3">合计(不含运费): ￥
+                            <span></span>
+                            <span style=" color:#ff5500;">
+                                <label id="zong1"></label>
+                            </span>
+                        </td>
+                        <td class="tb3_td4">
+                            <span id="jz1">结算</span>
+                <a href="#" style=" display:none;"  class="jz2" id="jz2">结算</a>
+                        </td>
+                    </tr>
+                </table>
+                 </div>
+            </div>
+
+        <div class="footer"></div>
+        <div class="footer_foot"></div>
+        <script src="jq/jquery.js"></script>
+        <script src="jq/jquery.cookie.js"></script>
+        <script src="js/shop.js"></script>
+
+<script>
+</script>
+</body>
+</html>

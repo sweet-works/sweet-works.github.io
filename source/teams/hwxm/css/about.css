@@ -1,0 +1,40 @@
+.details{ height: 720px;}
+em{font-style: normal;}
+.ab_head{height: 30px;line-height: 30px;margin-top: 10px;}
+.ab_head a,.ab_head span{color: #666;font-size: 16px}
+.open_img{width: 450px;height: 450px;float: left}
+.open_img img{width: 450px;height: 450px;}
+.details_right{width: 730px;height: 720px;float: right}
+.details_right h2{padding:0 0 5px 15px;}
+#x_h{font-size: 14px;color: #3a3a3a; width: 700px;margin:0 auto}
+#x_h a{color:#ca151d;text-decoration: underline;font-size: 14px;}
+#x_j{height: 175px;width: 700px;background: #f5f5f5;margin:20px auto}
+#x_j table tr td:nth-of-type(1){ width: 65px;height: 30px;}
+#x_j table tr td:nth-of-type(2){color: #ca151d;;height: 30px;font-size: 14px;}
+#x_j em{border:1px #ca151d solid; display:inline-block;height: 20px;line-height: 20px}
+#x_j .first td:nth-of-type(2){font-size: 20px;}
+#x_j .first td:nth-of-type(3){font-size: 20px;color:#ca151d; }
+#x_j .first td:nth-of-type(3) s{color: #666}
+#x_id{width: 700px;height: 400px;margin:0 auto}
+#x_id p {font-size: 14px;margin-bottom: 10px;}
+#x_id p label{margin-right: 15px;}
+.x_se{width: 700px;border-top: 1px #666 solid;padding-top: 10px;}
+.x_se label{width: 60px;height: 40px;line-height: 40px;text-align: left;font-size: 14px;margin-right: 15px;float: left}
+.col{width: 700px;float: left;margin-bottom: 6px;}
+.col ul li{float: left; min-width:80px;height: 40px;line-height: 40px;margin-right: 10px;border:1px  #666 solid;text-align: center}
+.sty ul li{height: 26px;line-height: 26px;margin-top: 7px}
+#x_g{width: 700px;margin:0 auto;overflow: hidden}
+#x_g span{ width: 60px;text-align: left;font-size: 14px;margin-left: 20px;color: #ca151d}
+#sub input{width: 60px;height: 46px;outline: none;font-size: 20px;text-align: center;border: none}
+#sub span{display:inline-block;width: 172px;height: 46px;
+    margin-right:10px;line-height: 46px;text-align: center;font-size: 20px;color: #fff;border-radius: 5px;cursor: pointer;}
+#sub span:nth-of-type(1){background: #fc600c;}
+#sub span:nth-of-type(2){background: #ca151d;}
+.tao ul li,.ding ul li{border-color:#ca151d; }
+
+.details_left{width: 370px;height: 68px;float: left;margin: 40px 0 0 40px;}
+.details_left ul li {border: 1px #fff solid;
+    width: 59px;
+    height: 59px;float: left}
+.details_left ul li img{width: 59px;height: 59px;}
+.details_left ul{display: flex;justify-content: space-between}

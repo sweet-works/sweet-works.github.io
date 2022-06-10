@@ -1,0 +1,138 @@
+/*公共部分*/
+*{margin:0;padding: 0;}
+img{display: block}
+li{list-style: none;}
+a{text-decoration:none;}
+html,body{height: 100%;}
+body{font-family:"宋体","微软雅黑","Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+.layout{width: 1200px;margin:0 auto;overflow: hidden}
+/*头部*/
+.head{height: 30px;width: 1200px;margin:0 auto;}
+.head ul{position: relative;}
+.head_l li{float: left;height:30px;position: relative}
+.head  li a{display: block;line-height: 30px;height: 30px;color: #a4a4a4;padding: 0 8px;font-size: 12px; }
+.head_l li:before{content: "";width: 1px;height: 10px;display: block;  position: absolute; top: 10px;left: 0;background: #e4e4e4 ;}
+.head_l li:first-child:before{display: none}
+.head li:hover >a{color: red;}
+.head_r {float: right}
+.head_r li{float: left;position: relative}
+.head_r li:nth-of-type(3):before,.head_r li:nth-of-type(4):before{
+    content: "";  width: 1px;  height: 10px;  display: block;  position: absolute;  top: 10px;  left: 0;  background: #e4e4e4 ;}
+/*在每个li前加一个竖杠*/
+.downloadAPP{width:70px;}
+.download{height: 30px;border:1px solid transparent;position: relative}
+.download:hover{border:1px solid #ebebeb;border-bottom:transparent;background:#fff;z-index:100;width: 70px;
+    box-shadow: #ebebeb 1px -2px 2px 0}
+.download_ma{background-color: #fff;width: 160px;height: 150px;border:1px #ebebeb solid;margin-top: 30px;position: absolute;left: -90px;
+    display: none;box-shadow: #ebebeb 1px -2px 2px 0;z-index: 100;}
+/*阴影*/
+/*二维码*/
+.downloadAPP:hover .download_ma{display:block}
+.download_ma:hover +.download{border:1px solid #ebebeb;border-bottom:transparent;background-color:#fff;width: 70px;
+    box-shadow: #ebebeb 1px -2px 2px 0px;z-index: 100}
+.download_ma img{margin:1px auto;margin-top: 30px;}
+.sanjiao{width: 0;height: 0;border:5px #a4a4a4 solid;border-left: 5px solid transparent;border-right:5px solid transparent;border-bottom: 5px solid transparent;  position: absolute;transform:rotate(0deg);top: 12px;right: 3px;}
+.downloadAPP:hover .sanjiao{ top:7px;transform:rotate(180deg)}
+.download_ma p a{display: inline-block;color:#000;}
+.download_ma p{display:block;font-size: 14px;text-align: center;margin-bottom: 20px;}
+.download:hover a{color: red;}
+/*精彩按钮*/
+.jc{width: 75px;position: relative;}
+.jc:hover .sanjiao{ top:7px;transform:rotate(180deg)}
+.jc_up{width: 150px;height: 180px;margin-top:30px;position: absolute;right: -2px;background-color: #fff;border:1px #ebebeb solid; box-shadow: #ebebeb 1px -2px 2px 0;display: none;z-index: 100;}
+.jc_tn{border:1px solid transparent;position: relative}
+.jc_tn:hover{border:1px solid #ebebeb;border-bottom:transparent;background:#fff; width: 75px;box-shadow: #ebebeb 1px -2px 2px 0;z-index: 102}
+.jc:hover .jc_up{display:block;}
+.jc_up:hover +.jc_tn{border:1px solid #ebebeb;border-bottom:transparent;background-color:#fff;z-index:110;width: 75px;box-shadow: #ebebeb 1px -2px 2px 0;}
+.jc_up p{text-align: center;margin-top: 10px;}
+.jc_up p a{color: #000;font-size: 15px;}
+.jc_up p:hover a{color:red}
+.jc_tn:hover a{color: red;}
+/*购物车*/
+.gouwu{width: 125px;position: relative;}
+.btn{border: 1px solid transparent;background: #fff;width: 125px;}
+.btn:hover{border:1px solid #ebebeb;width: 125px;position: absolute;z-index:111;border-bottom: transparent;box-shadow: #ebebeb 1px -2px 2px 0;}
+.gouwu_up{width: 400px;height: 200px;border: 1px #ebebeb solid;background: #fff;position: absolute;z-index: 100;margin-top: 30px;left: -275px;box-shadow: #ebebeb 1px -2px 2px 0;display: none;text-align: center; }
+.gouwu_up:hover+.btn{width: 125px;border:1px solid #ebebeb;position: absolute;z-index:101;border-bottom: transparent;box-shadow: #ebebeb 1px -2px 2px 0;}
+.gouwu:hover .gouwu_up{display:block}
+/*#shopnum购物车的数量*/
+#shopnum{color: red;}
+/*没有物品时购物车显示的一个iconfont字体*/
+.gouwu_up a.iconfont{display: block;font-size: 80px;margin-top:60px;}
+.gouwu_up p{display:inline-block;margin-top: 40px;color:  #a4a4a4 }
+/*nav star 中间部分导航*/
+.nav{height: 50px;padding:10px 0 ;box-shadow: 0 4px 4px 0 rgba(0,0,0,0.06)}
+/*导航logo*/
+.nav img{width: 240px;height: 50px;float: left;}
+.nav_l{width: 780px;height: 50px;}
+.nav_l ul{float: left;}
+.nav_l li{float: left;}
+.nav_l li a{display: block;height: 40px;line-height: 50px;margin-right: 20px;color: #000;font-size: 16px;}
+.nav_l li a:hover{color: red;border-bottom: 2px red solid}
+.nav_r{width: 300px;height: 50px;float: right;position: relative;margin-right: 35px;}
+.nav_r input{height: 30px;border: 1px #000 solid;margin-top: 10px ;outline: none;width: 300px;text-align: center;z-index: -1;}
+.nav_r span.btn {width: 30px;height: 30px;border: 1px #000 solid;position: absolute;top: 10px;right: -2px;font-size:25px;}
+/*导航就结束*/
+/*小轮播图 写的不好后期需要从新写*/
+.box{height: 290px;width: 3000px;position: relative;overflow: hidden;}
+.lunbo{height: 290px;text-align: center;position: absolute}
+.lunbo a{display:block;width: 216px;height: 100%;border-right:1px  #f5f5f5 solid;float: left;background-color: #fff;color: #3d3d3d;}
+.lunbo a img{width: 134px;height: 134px;margin:20px auto;}
+.lunbo a p:nth-of-type(1){font-size: 14px;color: #6e6e6e;margin:10px 0}
+.lunbo a p:nth-of-type(2){color: #ca151d;padding-left:0; }
+.lunbo a:hover{transform:translateY(-2px);border-top:none;box-shadow: 0 4px 4px 0 rgba(0,0,0,0.06)}
+.btn_l,.btn_r{width: 22px;height: 76px;background-color:rgba(204,204,204,0.9);position: absolute;z-index:100;top:107px;text-align: center;line-height: 76px;color: #fff;}
+.btn_l{left: 0;}
+.btn_r{left: 1178px;}
+/*小轮播图结束   另配合js完成*/
+/*小轮播图 其实就是图片切换  图片随着鼠标改变所以来改变透明度来显示图片*/
+.sbanner{height: 120px;width: 100%;position: relative;margin-top: 20px;}
+.sbanner img{position: absolute;opacity: 0;transition: all 1s}
+.sbanner .position{opacity: 1;}
+.sbanner ul li{float: left;height: 16px;width: 16px;border-radius: 9px;border:1px #999 solid;margin:10px;}
+.sbanner ul{position: absolute;z-index: 10;right: 100px;bottom: 0;}
+.bg{background-color:rgba(204,204,204,0.5);}
+/*图片切换结束*/
+
+        .title{height: 38px;line-height: 38px;margin:20px 0}
+        .title h2{float: left;margin-right:30px;}
+        .title>a{float: right;color:#666;font-size: 20px;}
+        .title>a:hover{color: #ca151d;}
+        .titlelist li{float: left;}
+        .titlelist li a{display: block;
+            height: 32px;line-height: 38px;color:#a4a4a4;font-size: 18px;margin:0 10px ;}
+        .titlelist li:hover a{color: #ca151d;border-bottom: 2px #ca151d solid}
+.footer{background: #f0f0f0}
+.footer_head{height: 139px;line-height: 160px;width: 100%;border-bottom: 1px rgb(232, 232, 232)
+solid}
+.footer_head a{display: inline-block;width: 294px;height: 47px;line-height: 47px;overflow: hidden;color:#3a3a3a}
+.footer_head a i{display:block;width: 47px;height: 47px;overflow: hidden;float: left;margin-right: 20px;}
+.footer_head a i img{transform: translateY(-150px)}
+.footer_head a:nth-of-type(2) i img{transform: translate(-47px,-150px)}
+.footer_head a:nth-of-type(3) i img{transform: translate(-94px,-150px)}
+.footer_head a:nth-of-type(4) i img{transform: translate(-141px,-150px)}
+.footer_body{padding:26px 0;height: 163px;}
+.footer_body_l{width: 944px;display: flex;border-right: 1px rgb(235, 235, 235)
+solid;float: left}
+.footer_body_l dl{flex: 1;}
+.footer_body_l dl dt p:nth-of-type(1){ width: 20px;height: 0;border-top:2px #3a3a3a solid;content: "";}
+.footer_body_l dl dt p{padding-bottom: 12px;font-size: 12px;}
+.footer_body_l dl dd ol li{line-height: 24px;color: #666;font-size: 12px;}
+.footer_body_l ol a{color: #666;}
+.footer_body_l ol li:hover a{color: #ca151d;}
+.footer_body_r{width: 215px;float: right; height: 100%;}
+.footer_body_r dl dt p:nth-of-type(1){ width: 20px;height: 0;border-top:2px #3a3a3a solid;content: "";}
+.footer_body_r dl dt p:nth-of-type(2){ font-size: 30px;}
+.footer_body_r dl dt p{padding-bottom: 12px;font-size: 12px;}
+.footer_body_r dl dd a{display: block;width: 161px;height: 35px;
+    background-color: #fff;line-height: 35px;color: #ca151d;}
+.footer_body_r dl dd a i{margin:9px 10px 0 40px;float: left;width: 22px;height: 18px;background: url(../images/cx/icon-common.png);background-position: -101px -23px;}
+.footer_foot{height: 40px;background: #e6e6e6;padding:26px 0 34px 0}
+.footer_foot p{display: inline-block;color: #a4a4a4;line-height: 20px;text-align: left;font-size: 14px;}
+.footer_foot p:nth-of-type(3) img{display: inline-block; width: 70px;height: 24px;margin-top: 10px;}
+.footer_foot p:nth-of-type(1) img{margin-right: 30px}
+.footer_foot p:nth-of-type(3){float: right;}
+.footer_foot p a{color: #a4a4a4;}
+.footer_foot p a:hover{color: #ca151d;}
+
+

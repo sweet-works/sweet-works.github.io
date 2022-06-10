@@ -1,0 +1,41 @@
+.layout{width: 1140px;margin:0 auto;overflow:hidden;}
+body{font-family:"微软雅黑";}
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,img{padding: 0; margin: 0;}
+			/*head  start*/
+		img{display: block;}
+		ul li{list-style:none;}
+		.head{height: 102px;background:#fefefe;}
+		.head img{width: 410px;height: 102px;float: left;}
+		.head ul{float: right;margin-top: 30px;}
+		.head ul li{float: left;}
+		.head li  a {display: block;width: 88px;height: 72px;text-decoration:none; text-align: center;line-height: 72px;color:#000002;font-size: 14px;}
+		.head li a:hover{background:#f75a53 url(../images/bg_nav.jpg) no-repeat top center ; color: #fff;}
+			/*head  end*/
+			/*footer  start*/
+			.footer{height: 140px;background: #363636;}
+			.footer p {text-align: center;color: #777777;margin-bottom: 10px;}
+			.footer p a{/*display: block;*/text-decoration: none;color: #777777; padding:0 10px;}
+			.footer_top {display: block; height: 40px;line-height: 40px; margin-top: 20px;}
+			/*footer  end*/
+			/*成功案例*/
+			/*red  start*/
+			.red {height: 201px;background: url(../images/bg_content.jpg);}
+			.red_l {padding-right: 16px;color: #fff;}
+			.red_r {border-left: 1px #fdb4ae solid;font-weight: normal;font-size:25px;color: #fdb4ae;padding-left: 16px;}
+			.red p span{color:#fdb4ae; }
+			.red p a {text-decoration: none;color: #fff;}
+			.red h1{margin:70px 0 24px 0;}
+			/*red  end*/
+			/*  成功案例*/
+		  /*banner_nav start*/
+		  .banner_nav{height: 60px;background: #f7f7f7;}
+		  .banner_nav ul{float: right;}
+		  .banner_nav ul li{float: left;}
+		  .banner_nav ul li a{display: block;text-align: center;text-decoration:none;height: 60px;line-height: 60px;color: #656565;padding:0 16px;}
+		  .sucess_img{margin:60px 0 100px 0;}
+		  /*banner_nav end*/
+		    /*  关于我们*/
+		    .about_tit{text-align: center;margin:0px 0 35px;font-size: 20px;}
+
+	
+

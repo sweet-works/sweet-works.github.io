@@ -1,0 +1,10 @@
+	.banner{height: 450px;position: relative;}
+    .banner_box{width:100%;height: 450px;position: relative;overflow: hidden;}
+    #imgbox{width:1920px;position:absolute;left:50%;
+               margin-left:-960px;height: 450px;overflow: hidden;}
+    #imgbox img{position: absolute;left: 1920px;top: 0;height: 450px;}
+    #imgbox img:nth-child(1){left: 0;}
+    .cent{width: 1200px;margin:0 auto;position: relative;}
+    #list{height: 40px;display: flex;position: absolute;bottom: 0;left: 50%;}
+    #list li{width: 14px;height: 14px;border-radius:7px;background: rgba(200,200,200,0.5);margin:8px;line-height: 16px;text-align: center}
+            
